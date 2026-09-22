@@ -14,7 +14,7 @@ def validate_html(html):
     # use the _extract_tags function below to generate a list of html tags without any extra text;
     # then process these html tags using the balanced parentheses algorithm from the stack.py file.
     # The main difference between your code and the code from class will be that you will have to keep track of not just the 3 types of parentheses,
-    # but arbitrary text located between the html tags.
+    # but arbitrary text located between the html tags
     if "<" in html and ">" not in html:
         return False
     all_tags = _extract_tags(html)
